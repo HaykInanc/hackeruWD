@@ -1,0 +1,58 @@
+<html>
+<head>
+<title> три массива</title>
+
+</head>
+
+<body>
+
+<!-- <script  scr="script.js"> </script>  -->
+
+<script> 
+function massiv1(i){
+    var a=[];
+    for (let j=0; j<i; j++){
+      a.push(String(j));
+      
+     
+      }
+      console.log(a);
+    }
+ 
+ function massiv2(i,j){
+     if (i<j){
+       var a=[];
+       for (let k=i;k<j;k++){
+         a.push(String(k));
+      
+     
+       };
+       console.log(a);
+     }else {console.log('второе значение должно быть больше первого');};
+    }    
+
+     function massiv3(i,j,k){
+     if (i<j && k>0){
+       var a=[];
+       var m=i;
+       
+       while  (m<j){
+          a.push(String(m));
+          m=Number(m)+Number(k);
+       
+     
+       };
+       console.log(a);
+     }else {console.log('второе значение должно быть больше первого и третье больше 0');};
+    }     
+ 
+var n=prompt("введите первое значение:");
+var n1=prompt("введите второе значение, оно должно быть больше первого:");
+var n2=prompt("введите третье значение, оно должно быть больше 0:");
+massiv1(n);
+massiv2(n,n1);
+massiv3(n,n1,n2);
+</script>
+ 
+</body>
+</html>

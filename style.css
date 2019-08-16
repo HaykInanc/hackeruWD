@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.carusel{
+	width:400px;
+	height:400px;
+	display: inline-block;
+	background-color: green;
+	position: relative;
+}
+
+.carusel ul{
+	position: absolute;
+	display: flex;
+}
+.carusel li{
+	list-style: none;
+	background-color: pink;	
+}
