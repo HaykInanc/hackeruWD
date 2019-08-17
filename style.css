@@ -3,19 +3,43 @@
 	margin: 0;
 }
 
+body{
+	text-align: center;
+}
+
 .carusel{
-	width:400px;
-	height:400px;
+	width:50vw;
+	height:50vw;
 	display: inline-block;
-	background-color: green;
 	position: relative;
+	overflow: hidden;
 }
 
 .carusel ul{
 	position: absolute;
 	display: flex;
+	transition: left 1s cubic-bezier(0.6,-1, 0.2, 1.8);
 }
 .carusel li{
 	list-style: none;
+	outline: 2px solid black;
+
 	background-color: pink;	
+}
+.trigger{
+	display: flex;
+}
+
+.trigger >div{
+	cursor: pointer;
+	margin: 10px;
+	padding: 10px;
+	background-color: blue;
+	outline: 2px solid black;
+}
+#box{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: absolute;
 }
