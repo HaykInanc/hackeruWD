@@ -1,26 +1,2 @@
- ✔ массивы @done (19-08-08 19:30)
- ✔ индексы @done (19-08-08 19:30)
- ✔ методы у массивов (слегка об объектах) @done (19-08-09 17:14)
-   темы:
-     ✔ slice @done (19-08-08 19:46)
-     ✔ concat @done (19-08-09 17:14)
-     ✔ split/join @done (19-08-08 19:46)
-     ✔ push/unshift @done (19-08-08 19:31)
-     ✔ pop/shift @done (19-08-08 19:31)
- ☐ методы у строк
-   темы:
-     ☐ toUpperCase()
-     ☐ toLowerCase()
-     ☐ length()
-     ☐ indexOf() / lastIndexOf()
-     ☐ slice
-     ☐ substring
-     ☐ substr
- ✔ цикл for @done (19-08-08 21:28)
- ✔ многомерные массивы @done (19-08-09 17:14)
- ✔   continue; break; бесконечный цикл @done (19-08-09 17:15)
- ✔ задачки @done (19-08-08 21:27)
- ✔ цикл while и do while @done (19-08-08 21:27)
- ☐ задачки
-
-
+Запрос к Inst
+https://www.instagram.com/graphql/query/?query_hash=f12c9ec5e46a3173b2969c712ad84744&variables={%22tag_name%22:%22%D0%BA%D0%BE%D1%82%D1%8B%22,%22first%22:1000}
