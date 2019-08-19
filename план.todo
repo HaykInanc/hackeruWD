@@ -1,2 +1,15 @@
 Запрос к Inst
 https://www.instagram.com/graphql/query/?query_hash=f12c9ec5e46a3173b2969c712ad84744&variables={%22tag_name%22:%22%D0%BA%D0%BE%D1%82%D1%8B%22,%22first%22:1000}
+
+
+
+function loadCats(){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+       console.log(this.responseText)
+    }
+  };
+  xhttp.open("GET", "https://www.instagram.com/graphql/query/?query_hash=f12c9ec5e46a3173b2969c712ad84744&variables={%22tag_name%22:%22%D0%BA%D0%BE%D1%82%D1%8B%22,%22first%22:1000}", true);
+  xhttp.send();
+}
